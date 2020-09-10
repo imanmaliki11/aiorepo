@@ -7,5 +7,13 @@
          "email": "sewa@sewasi.id",
          "lastUpdate": "59 minutes ago"
        }
-     ]
+     ],
+  "data1" :
+    [
+      {
+        "judul": "Judul Transaksi",
+        "jumlah": "75",
+        "value": 90
+      }
+    ]
 }
