@@ -7,7 +7,7 @@
 
 var s1 = false, s2=false, s3=false;
 
-var iman = setInterval(run, 100);
+var iman = setInterval(run, 500);
 
 //var i = setTimeout(run, 1000);
 
@@ -26,8 +26,16 @@ function run() {
     console.log('======= 2 ========');
     var y = document.querySelector(".cart-page-footer__checkout button");
     if(y) {
-      y.click();
+      y.click()
       s2 = true;
+    }
+  }
+  
+  if(!s3) {
+    console.log('======= 3 ========');
+    var z = document.querySelector("._1WpGLP button");
+    if(z.click()) {
+      s3 = true;
     }
   }
   
