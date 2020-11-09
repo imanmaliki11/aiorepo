@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name Iman Script
+// @name Insyaallah WIN IPHONE XR
 // @namespace Script Runner Pro
 // @match *://*/*
 // @grant none
@@ -12,7 +12,9 @@ var iman = setInterval(run, 50);
 
 function run() {
   
-  var tt = new Date(Date.UTC('2020','09','29','06','00','00'));
+  //contoh 8 April 2020 jam 13:00 WIB = '2020', '03', '08', '06', '00', '00'
+  //BULAN DIMINUS 1 | JAM DALAM UTC (DIMINUS 7 JAM)
+  var tt = new Date(Date.UTC('2020','10','05','06','00','00')); //isi tanggal dan jam flash sale
   var d = new Date();
   var n = d.getTime();
   var x = tt.getTime();
@@ -22,7 +24,7 @@ function run() {
     try {
       if(!s0) {
         console.log('======= 0 ========');
-        var r = document.getElementsByClassName("crl7WW")[0].firstElementChild;
+        var r = document.getElementsByClassName("crl7WW")[0].lastElementChild;
         if(r.click()) {
           s0 = true;
         }
